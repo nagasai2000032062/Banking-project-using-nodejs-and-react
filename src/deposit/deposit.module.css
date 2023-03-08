@@ -1,0 +1,94 @@
+.depCont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    width: 800px;
+    margin: 100px auto 0px auto;
+    background-color: rgba(0, 0, 255, 0.4);
+}
+
+.depCont>form {
+    display: flex;
+    flex-direction: column;
+    cursor: cell;
+    margin: 30px
+}
+
+.xyz {
+    border: 3px solid red;
+    padding: 20px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.name {
+    width: 300px;
+    height: 30px;
+    font-size: 1.5em;
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 7px;
+    outline: 0;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 1, 1);
+}
+
+label {
+    color: black;
+    font-size: 25px;
+    font-style: italic;
+}
+
+input.create {
+    margin: 5px;
+    width: 200px;
+    padding-top: 4px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 3px solid;
+    cursor: pointer;
+    border-color: red blue green yellow;
+}
+
+input.create {
+    margin: 30px;
+    width: 200px;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 3px solid;
+    cursor: pointer;
+    border-color: red blue green yellow;
+
+}
+
+.create:hover {
+    background-color: dodgerblue;
+    color: white;
+    border: 3px solid;
+    border-color: red blue green yellow;
+    border-radius: 50px;
+}
+
+.depCont>button {
+    height: 30px;
+    border: 2px solid;
+    width: 110px;
+
+}
+
+.depCont>button:hover {
+
+    opacity: 0.8;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 12px;
+    border: none;
+    font-style: italic;
+}

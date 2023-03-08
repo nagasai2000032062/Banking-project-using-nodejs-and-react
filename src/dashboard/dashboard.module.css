@@ -1,0 +1,37 @@
+.dashCont {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto, 0px, auto);
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    width: 1000px;
+    margin: 100px auto 0px auto;
+    background-image: url('nature2.jpg');
+    background-size: cover;
+}
+
+.dashCont>div {
+
+    background-color: lightgray;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid red;
+    border-radius: 10px;
+    font-size: 2em;
+}
+
+.dashCont>div:hover {
+    background-color: dodgerblue;
+    color: white;
+    border: 4px solid red;
+    border-radius: 30px;
+    border-color: dodgerblue;
+    
+}
